@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header_container">
+        <div class="header_left">
+          <a class="header_link" href="#">Home</a>
+          <button class="header_modal--link" onclick="togglePopup()">
+            Contact Me
+          </button>
+        </div>
+        <div class="header_right">
+          <h2 class="header_logo">Serhiibd</h2>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="modal" id="modal">
+        <div class="modal_overlay"></div>
+        <div class="modal_content">
+          <div class="modal_close_btn" onclick="togglePopup()">&times;</div>
+          <h2 class="modal_title">Contact Me</h2>
+          <p class="modal_text">email: serhii.atamaniuk@gmail.com</p>
+          <br />
+          <p class="modal_text">Thanks for contacting!</p>
+        </div>
+      </div>
+      <section class="main_first--section">
+        <div class="main_first--container">
+          <h2 class="main_first--title">Serhiibd</h2>
+          <p class="main_first--text">
+            A <span class=".span1">front-end</span> developer, who's
+            <span class="span2">ready for the future</span>.
+          </p>
+        </div>
+      </section>
+      <section class="main_second--section">
+        <div class="main_second--container">
+          <h2 class="main_second--title">Tools I use:</h2>
+          <div class="main_second--images">
+            <img src="./img/html.png" alt="html" />
+            <img src="./img/css.png" alt="css" />
+            <img src="./img/js.png" alt="js" />
+            <img src="./img/nodejs.png" alt="nodejs" />
+            <img src="./img/jquery.png" alt="jquery" />
+            <img src="./img/sass.png" alt="sass" />
+          </div>
+        </div>
+      </section>
+      <section class="main_third--section">
+        <div class="main_third--container">
+          <h2 class="main_third--title">Creations of mine</h2>
+          <div class="main_third--cards">
+            <div class="main_third--card">
+              <h2 class="main_third--card--title">WebStudio</h2>
+              <a
+                href="https://github.com/Serhiibd/WebStudio"
+                class="main_third--card--link"
+                >github.com/Serhiibd/WebStudio</a
+              >
+            </div>
+            <div class="main_third--card">
+              <h2 class="main_third--card--title">ColoRawe</h2>
+              <a
+                href="https://github.com/Serhiibd/ColoRawe"
+                class="main_third--card--link"
+                >github.com/Serhiibd/ColoRawe</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main_last--section">
+        <div class="main_last--container">
+          <h1 class="main_last--title">Still learning.</h1>
+          <h2 class="main_last--subtitle">(not for hire)</h2>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer_container">
+        <a href="https://github.com/Serhiibd">
+          <img src="./img/github.png" alt="github" />
+        </a>
+
+        <a href="https://github.com/Serhiibd" class="footer_link"
+          >github.com/Serhiibd</a
+        >
+        <h3 class="footer_copyright">Serhiibd, all rights served&copy;</h3>
+      </div>
+    </footer>
+    <script src="modal.js"></script>
+  </body>
+</html>

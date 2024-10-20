@@ -1,0 +1,153 @@
+.main_first--section {
+  padding-top: 115px;
+}
+.main_first--container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main_first--title {
+  font-size: 40px;
+  font-family: "Urbanist";
+  font-weight: 400;
+}
+
+.main_first--text {
+  font-size: 60px;
+  width: 747px;
+  text-align: center;
+  font-family: "Urbanist";
+}
+
+.main_first--text span {
+  font-family: "Playwrite GB S";
+  font-size: 50px;
+}
+
+.span2 {
+  font-size: 55px !important;
+  font-weight: 340 !important;
+}
+
+.main_second--section {
+  padding-top: 70px;
+}
+
+.main_second--container {
+  max-width: 1170px;
+  margin: 0 auto;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.main_second--title {
+  font-size: 43px;
+  font-family: "Urbanist";
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.main_second--images img {
+  width: 90px;
+  height: 85px;
+}
+
+.main_second--images {
+  display: flex;
+}
+
+.main_second--images img:not(:last-child) {
+  margin-right: 50px;
+}
+
+.main_third--section {
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+.main_third--container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main_third--title {
+  font-size: 43px;
+  font-family: "Urbanist";
+  font-weight: 500;
+  margin-bottom: 75px;
+}
+
+.main_third--cards {
+  display: flex;
+}
+
+.main_third--card {
+  border: 2.5px solid black;
+  padding-top: 25px;
+  padding-bottom: 75px;
+  padding-right: 100px;
+  padding-left: 100px;
+  text-align: center;
+}
+
+.main_third--card:first-child {
+  margin-right: 275px;
+}
+
+.main_third--card--title {
+  font-size: 45px;
+  margin-bottom: 20px;
+  font-family: "Urbanist";
+  font-weight: 500;
+}
+
+.main_third--card--link {
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: "Urbanist";
+  transition: 0.2s ease-in-out;
+}
+
+.main_third--card--link:hover {
+  color: rgb(60, 60, 60);
+  transition: 0.2s ease-in-out;
+}
+
+.main_last--section {
+  padding-top: 260px;
+  padding-bottom: 260px;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+}
+
+.main_last--container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main_last--title {
+  font-size: 60px;
+  font-family: "Playwrite GB S";
+  font-weight: 450;
+}
+
+.main_last--subtitle {
+  font-size: 20px;
+  font-family: "Urbanist";
+}
