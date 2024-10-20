@@ -21,6 +21,7 @@
   width: 747px;
   text-align: center;
   font-family: "Urbanist";
+  text-shadow: -4px 5px 6px rgba(126, 126, 126, 0.6);
 }
 
 .main_first--text span {
@@ -56,6 +57,13 @@
 .main_second--images img {
   width: 90px;
   height: 85px;
+  transition: 0.3s ease-in-out;
+}
+
+.main_second--images img:hover {
+  transition: 0.3s ease-in-out;
+  width: 100px;
+  height: 95px;
 }
 
 .main_second--images {
@@ -145,9 +153,11 @@
   font-size: 60px;
   font-family: "Playwrite GB S";
   font-weight: 450;
+  text-shadow: -9px 6px 4px rgba(157, 157, 171, 1);
 }
 
 .main_last--subtitle {
   font-size: 20px;
   font-family: "Urbanist";
+  text-shadow: -9px 6px 4px rgba(157, 157, 171, 1);
 }

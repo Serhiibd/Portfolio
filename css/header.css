@@ -27,11 +27,13 @@ header {
   text-decoration: none;
   color: #000000;
   font-size: 22px;
+  margin: 0;
   transition: 0.3s ease-in-out;
 }
 
 .header_link:hover {
   color: #585858;
+  margin-bottom: 5px;
   transition: 0.3s ease-in-out;
 }
 
