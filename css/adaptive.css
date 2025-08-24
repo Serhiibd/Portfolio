@@ -1,0 +1,87 @@
+@media screen and (max-width: 1018px) {
+    .main_third--card {
+       max-width: 700px
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .main_first--text {
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .main_third--card {
+        max-width: 600px
+        ;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .main_second--images {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex: auto;
+        }    
+        .main_second--images img:last-child {
+            margin-right: 50px;
+        }
+}
+@media screen and (max-width: 630px) {
+    .main_first--text {
+        max-width: 450px;
+    }
+}
+@media screen and (max-width: 620px) {
+    .main_third--card {
+        max-width: 470px
+        ;
+    }
+}
+
+@media screen and (max-width: 495px) {
+    .main_third--card {
+        max-width: 340px
+        ;
+    }
+    .main_third--card--link {
+        font-size: 18px;
+    }
+
+    .main_third--subtext {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+   .main_second--images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+}
+
+@media screen and (max-width: 465px) {
+    .main_first--text {
+        max-width: 350px;
+    }
+}
+@media screen and (max-width: 435px) {
+    .header_link {
+        display: none;
+    }
+}
+@media screen and (max-width: 365px) {
+    .main_third--card {
+        max-width: 250px;
+    }
+    .main_first--text {
+        max-width: 300px;
+        font-size: 40px !important;
+    }
+
+    .main_first--text span {
+        font-size: 40px !important;
+    }
+}
