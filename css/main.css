@@ -122,6 +122,13 @@
   box-shadow: -9px 14px 28px -2px rgba(0, 0, 0, 0.59);
   -webkit-box-shadow: -9px 14px 28px -2px rgba(0, 0, 0, 0.59);
   -moz-box-shadow: -9px 14px 28px -2px rgba(0, 0, 0, 0.59);
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
+
+.main_third--card.visible {
+  transition: opacity 0.5s ease-in;
+  opacity: 1;
 }
 
 .main_third--card:not(:last-child) {
